@@ -1,6 +1,5 @@
 #include "dungeon.h"
 
-
 void Dungeon::setUpDungeon() {
     for (int r = 0; r < rows; r++) {
         for (int c = 0; c < cols; c++) {
@@ -22,6 +21,7 @@ void Dungeon::setUpDungeon() {
     item healingPotion;
     healingPotion.name = "Healing Potion";
     healingPotion.health = 50;
+    healingPotion.damage += 0;
 
     item sword;
     sword.name = "Awesome Sword";

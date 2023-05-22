@@ -1,6 +1,6 @@
 #include "gameCharacter.h"
 
-GameCharacter::GameCharacter(std:: string _name, int _health, int _damage) {
+GameCharacter::GameCharacter(std::string _name, int _health, int _damage) {
     name = _name;
     maxHealth = _health;
     currentHealth = _health;
